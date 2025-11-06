@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base de la aplicación. -->
+    <style name="Theme.CalculadorAppADP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color primario de la marca. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Color secundario de la marca. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Color de la barra de estado. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Personaliza tu tema aquí. -->
+    </style>
+
+    <!-- Estilo para los botones de la calculadora -->
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
