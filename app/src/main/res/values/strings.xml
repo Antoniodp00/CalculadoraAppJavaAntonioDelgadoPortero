@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">CalculadorAppADP</string>
+    <string name="app_name">Calculadora</string>
+
+    <!-- General -->
+    <string name="add">Suma</string>
+    <string name="subtract">Resta</string>
+    <string name="multiply">Multiplicación</string>
+    <string name="divide">División</string>
+    <string name="result">Resultado</string>
+
+    <!-- Layout texts -->
+    <string name="enter_first_number">Introduce el primer número</string>
+    <string name="enter_second_number">Introduce el segundo número</string>
+    <string name="single_calculation">Cálculo único:</string>
+    <string name="calculate">Calcular</string>
+    <string name="multiple_calculations">Cálculos múltiples:</string>
+
+    
+    <!-- Toast & Error Messages -->
+    <string name="error_enter_both_numbers">Por favor, introduce ambos números</string>
+    <string name="error_invalid_numbers">Por favor, introduce números válidos</string>
+    <string name="error_division_by_zero">Error: División por cero</string>
+    <string name="error_select_operation">Por favor, selecciona una operación</string>
+    <string name="error_select_at_least_one_operation">Por favor, selecciona al menos una operación</string>
+
+    <!-- Multiple calculation results -->
+    <string name="result_sum_is">La suma es %1$.2f\n</string>
+    <string name="result_subtraction_is">La resta es %1$.2f\n</string>
+    <string name="result_multiplication_is">La multiplicación es %1$.2f\n</string>
+    <string name="result_division_is">La división es %1$.2f\n</string>
+    <string name="result_division_error">La división es: Error (división por cero)\n</string>
 </resources>

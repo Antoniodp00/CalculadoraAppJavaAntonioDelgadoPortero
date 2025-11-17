@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- General -->
+    <string name="add">Addition</string>
+    <string name="subtract">Subtraction</string>
+    <string name="multiply">Multiplication</string>
+    <string name="divide">Division</string>
+    <string name="result">Result</string>
+
+    <!-- Layout texts -->
+    <string name="enter_first_number">Enter the first number</string>
+    <string name="enter_second_number">Enter the second number</string>
+    <string name="single_calculation">Single calculation:</string>
+    <string name="calculate">Calculate</string>
+    <string name="multiple_calculations">Multiple calculations:</string>
+
+
+    <!-- Toast & Error Messages -->
+    <string name="error_enter_both_numbers">Please enter both numbers</string>
+    <string name="error_invalid_numbers">Please enter valid numbers</string>
+    <string name="error_division_by_zero">Error: Division by zero</string>
+    <string name="error_select_operation">Please select an operation</string>
+    <string name="error_select_at_least_one_operation">Please select at least one operation</string>
+
+    <!-- Multiple calculation results -->
+    <string name="result_sum_is">The sum is %1$.2f\n</string>
+    <string name="result_subtraction_is">The subtraction is %1$.2f\n</string>
+    <string name="result_multiplication_is">The multiplication is %1$.2f\n</string>
+    <string name="result_division_is">The division is %1$.2f\n</string>
+    <string name="result_division_error">The division is: Error (division by zero)\n</string>
+</resources>

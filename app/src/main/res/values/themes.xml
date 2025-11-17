@@ -1,21 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Tema base de la aplicación. -->
     <style name="Theme.CalculadorAppADP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Color primario de la marca. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Color secundario de la marca. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Color de la barra de estado. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Personaliza tu tema aquí. -->
+        <!-- Paleta de colores principal -->
+        <item name="colorPrimary">@color/accent_color</item>
+        <item name="colorPrimaryVariant">@color/card_background</item>
+        <item name="colorOnPrimary">@color/button_text_color</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:windowBackground">@color/app_background</item>
     </style>
 
-    <!-- Estilo para los botones de la calculadora -->
-    <style name="CalculatorButton" parent="Widget.AppCompat.Button.Borderless">
-        <item name="android:textColor">@android:color/black</item>
+    <!-- Estilo para los EditText -->
+    <style name="CalculatorEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Estilo para los botones principales -->
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para los RadioButton y CheckBox -->
+    <style name="CalculatorSelectionControl" parent="">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Estilo para los títulos de las secciones -->
+    <style name="SectionTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
 </resources>
